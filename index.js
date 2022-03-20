@@ -35,7 +35,7 @@ json.addEventListener("click",()=>{
     document.getElementById("jsonBox").style.display = "block";
 })
 
-// If the clicks On The Plus Button Add Parameters
+// If the clicks On The Plus Button Add Parameter
 let plus = document.getElementById("plus");
 plus.addEventListener("click",()=>{
     let addParams = document.getElementById("addParams");
