@@ -42,10 +42,10 @@ plus.addEventListener("click",()=>{
     let str = `<div class="row g-3 my-2">
                     <legend class="col-form-label col-sm-2 pt-0">Parmeter ${addedParamCount + 2}</legend>
                     <div class="col-md-3">
-                    <input type="text" class="form-control" id="parameterKey${addedParamCount + 2}" placeholder="Eneter Parameter Key ${addedParamCount + 2}">
+                    <input type="text" class="form-control" id="parameterKey${addedParamCount + 2}" placeholder="Enter Parameter Key ${addedParamCount + 2}">
                     </div>
                     <div class="col-md-3">
-                    <input type="text" class="form-control" id="parameterValue${addedParamCount + 2}" placeholder="Eneter Parameter Value ${addedParamCount + 2}">
+                    <input type="text" class="form-control" id="parameterValue${addedParamCount + 2}" placeholder="Enter Parameter Value ${addedParamCount + 2}">
                     </div>
                     <div class="col-md-3">
                     <button class="btn btn-primary deleteParam" >- </button>
